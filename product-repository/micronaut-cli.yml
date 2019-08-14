@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: com.lucasaquiles.micronaut
+---
+testFramework: spek
+sourceLanguage: kotlin
