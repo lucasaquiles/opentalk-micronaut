@@ -20,6 +20,7 @@ configurations {
 }
 
 dependencies {
+    
     compileOnly platform("io.micronaut:micronaut-bom:$micronautVersion")
     compileOnly "io.micronaut:micronaut-inject-groovy"
     implementation platform("io.micronaut:micronaut-bom:$micronautVersion")
@@ -30,6 +31,7 @@ dependencies {
     implementation "io.micronaut:micronaut-http-client"
     runtimeOnly "ch.qos.logback:logback-classic:1.2.3"
     testCompileOnly platform("io.micronaut:micronaut-bom:$micronautVersion")
+    
     testImplementation("org.spockframework:spock-core") {
         exclude group: "org.codehaus.groovy", module: "groovy-all"
     }
