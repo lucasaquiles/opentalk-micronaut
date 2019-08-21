@@ -9,7 +9,6 @@ import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe
 import kotlin.test.assertEquals
 
-
 class ProductControllerSpek : Spek({
 
     describe("test end point to find by stock"){
