@@ -29,6 +29,9 @@ dependencies {
     implementation "javax.annotation:javax.annotation-api"
     implementation "io.micronaut:micronaut-http-server-netty"
     implementation "io.micronaut:micronaut-http-client"
+
+    runtime "io.micronaut:micronaut-discovery-client"
+
     runtimeOnly "ch.qos.logback:logback-classic:1.2.3"
     testCompileOnly platform("io.micronaut:micronaut-bom:$micronautVersion")
     
