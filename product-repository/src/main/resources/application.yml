@@ -1,3 +1,11 @@
 micronaut:
   application:
     name: product-repository
+  server:
+    port: 8081
+
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"

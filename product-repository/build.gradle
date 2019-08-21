@@ -29,10 +29,15 @@ dependencies {
     implementation "javax.annotation:javax.annotation-api"
     implementation "io.micronaut:micronaut-http-server-netty"
     implementation "io.micronaut:micronaut-http-client"
+
+    runtime "io.micronaut:micronaut-discovery-client"
+
+
+
     kapt platform("io.micronaut:micronaut-bom:$micronautVersion")
     kapt "io.micronaut:micronaut-inject-java"
     kapt "io.micronaut:micronaut-validation"
-
+        
     runtimeOnly "com.fasterxml.jackson.module:jackson-module-kotlin:2.9.8"
     runtimeOnly "ch.qos.logback:logback-classic:1.2.3"
 
