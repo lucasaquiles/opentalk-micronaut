@@ -12,8 +12,8 @@ class ProductRepositoryImpl implements ProductRepository {
     List<Product> findAll() {
 
         [
-                new Product("1491950358", "Guitar with laser", "no description for this"),
-                new Product("1680502395", "Guitar with blue laser", "cry with that blue laser"),
+            new Product("1234", "Guitar with laser", "no description for this"),
+            new Product("4321", "Guitar with blue laser", "cry with that blue laser"),
         ]
     }
 }
