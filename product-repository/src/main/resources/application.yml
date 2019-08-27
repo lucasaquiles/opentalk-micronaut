@@ -1,6 +1,6 @@
 micronaut:
   application:
-    name: product-repository
+    name: product-inventory
   server:
     port: 8081
 
