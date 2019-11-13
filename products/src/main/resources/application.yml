@@ -3,6 +3,9 @@ micronaut:
     name: products
   server:
     port: 8082
+all:
+  enabled: true
+  sensitive: false
 
 consul:
   client:
