@@ -7,6 +7,14 @@ all:
   enabled: true
   sensitive: false
 
+tracing:
+  zipkin:
+    http:
+      url: http://localhost:9411
+    enabled: true
+    sampler:
+      probability: 1
+
 consul:
   client:
     registration:
