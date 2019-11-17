@@ -30,6 +30,11 @@ dependencies {
     implementation "io.micronaut:micronaut-http-server-netty"
     implementation "io.micronaut:micronaut-http-client"
 
+    compile "io.micronaut:micronaut-tracing"
+    runtime 'io.zipkin.brave:brave-instrumentation-http'
+    runtime 'io.zipkin.reporter2:zipkin-reporter'
+    compile 'io.opentracing.brave:brave-opentracing'
+
     runtime "io.micronaut:micronaut-discovery-client"
 
 
