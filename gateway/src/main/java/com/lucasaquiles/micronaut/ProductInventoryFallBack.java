@@ -15,4 +15,5 @@ public class ProductInventoryFallBack implements ProductInventoryClient{
         logger.info("M=ProductInventoryFallBack.inventory, value={}", "");
         return Maybe.just(0);
     }
+
 }

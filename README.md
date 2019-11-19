@@ -1,9 +1,9 @@
 App de exemplo para a talk de introdução ao Micronaut
 
 
-run docker with `docker run -p 8500:8500 consul`
+run consul `docker run -p 8500:8500 consul`
 
-docker run -d -p 9411:9411 openzipkin/zipkin
+run zipkin `docker run -d -p 9411:9411 openzipkin/zipkin`
 
 
 product

@@ -10,7 +10,7 @@ import io.reactivex.Flowable;
 
 @Client("products")
 @Requires(notEnv = Environment.TEST)
-@CircuitBreaker(delay = "5s", attempts = "5", multiplier = "3", reset = "300s" )
+@CircuitBreaker(delay = "5s", attempts = "5", multiplier = "3", reset = "10" )
 public interface ProductClient extends ProductFetcher{
     @Override
     @Get("/product/")
