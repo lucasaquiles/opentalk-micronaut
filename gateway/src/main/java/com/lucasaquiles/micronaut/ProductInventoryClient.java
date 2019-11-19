@@ -9,7 +9,7 @@ import io.reactivex.Maybe;
 
 @Requires(notEnv = Environment.TEST)
 @Client("product-inventory")
-@CircuitBreaker(delay = "5s", attempts = "5", reset = "300")
+@CircuitBreaker(delay = "5s", attempts = "5", reset = "10")
 public interface ProductInventoryClient extends ProductInventoryFetcher{
 
     @Override
