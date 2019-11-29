@@ -1,0 +1,9 @@
+---
+micronaut:
+  application:
+    name: product-stream
+
+---
+kafka:
+  bootstrap:
+    servers: localhost:9092
