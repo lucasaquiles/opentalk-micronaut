@@ -1,22 +1,23 @@
 micronaut:
   application:
     name: products
-  server:
-    port: 8082
-all:
-  enabled: true
-  sensitive: false
+#  server:
+#    port: 8082
+---
+datasource.default: {}
 
-tracing:
-  zipkin:
-    http:
-      url: http://localhost:9411
-    enabled: true
-    sampler:
-      probability: 1
-
-consul:
-  client:
-    registration:
-      enabled: true
-    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+#all:
+#  enabled: true
+#  sensitive: false
+#tracing:
+#  zipkin:
+#    http:
+#      url: http://localhost:9411
+#    enabled: true
+#    sampler:
+#      probability: 1
+#consul:
+#  client:
+#    registration:
+#      enabled: true
+#    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
